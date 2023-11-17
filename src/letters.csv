@@ -1,5 +1,5 @@
 key,publicationReady,abridged,headNote,endNote,textType,senderPlace,senderPlaceID,senderDate,senderDateEarliest,senderDateLatest,addressee,addresseeID,exclude,note
-1,true,true,true,true,,Oxford,http://www.geonames.org/2640729,,1914-10-01,1914-10-31,Edith Bratt,,,
+1,true,true,true,true,,Oxford,http://www.geonames.org/2640729,1914-10,,,Edith Bratt,,,
 2,true,true,false,true,,,,1914-11-27,,,Edith Bratt,,,
 3,true,true,true,false,,Rugeley Camp,http://www.geonames.org/12639786,1915-11-26,,,Edith Bratt,,,
 4,true,true,false,true,,,,1916-03-02,,,Edith Bratt,,,
@@ -129,7 +129,7 @@ key,publicationReady,abridged,headNote,endNote,textType,senderPlace,senderPlaceI
 128,,,,,,,,,,,,,,
 129,,,,,,,,,,,,,,
 130,,,,,,,,,,,,,,
-131,true,,true,true,CopyByThird,,,,1951-11-01,1951-12-31,Milton Waldman,https://viaf.org/viaf/43865621/,,
+131,true,,true,true,CopyByThird,,,,1951-10,1951-12-31,Milton Waldman,https://viaf.org/viaf/43865621/,,
 132,,,,,,,,,,,,,,
 133,,,,,,,,,,,,,,
 134,,,,,,,,,,,,,,
@@ -179,7 +179,7 @@ key,publicationReady,abridged,headNote,endNote,textType,senderPlace,senderPlaceI
 178,,,,,,,,,,,,,,
 179,,,,,,,,,,,,,,
 180,,,,,,,,,,,,,,
-181,true,true,true,true,Draft,,,,1956-01-01,1956-02-29,Michael Straight,https://viaf.org/viaf/94635761/,,assembled from multiple drafts
+181,true,true,true,true,Draft,,,,1956-01,1956-02,Michael Straight,https://viaf.org/viaf/94635761/,,assembled from multiple drafts
 182,,,,,,,,,,,,,,
 183,,,,,,,,,,,,,,
 184,,,,,,,,,,,,,,
