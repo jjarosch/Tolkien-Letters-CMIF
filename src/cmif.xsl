@@ -34,104 +34,116 @@
 		<profileDesc>
 			<xsl:for-each select="csv/row">
 				<xsl:if test="publicationReady/text() = 'true'">
-					<xsl:element name="correspDesc" xmlns="http://www.tei-c.org/ns/1.0">
-						<xsl:attribute name="key">
-							<xsl:value-of select="key"/>
-						</xsl:attribute>
-						<xsl:attribute name="source">
-							<xsl:text>#e8f085d69-81a8-466f-a58d-3e7dac7431df</xsl:text>
-						</xsl:attribute>
-						<xsl:element name="correspAction">
-							<xsl:attribute name="type">
-								<xsl:text>sent</xsl:text>
-							</xsl:attribute>
-							<xsl:element name="persName">
-								<xsl:attribute name="ref">
-									<xsl:text>http://viaf.org/viaf/95218067</xsl:text>
+					<xsl:choose>
+						<xsl:when test="exclude/normalize-space() = ''">
+							<xsl:element name="correspDesc" xmlns="http://www.tei-c.org/ns/1.0">
+								<xsl:attribute name="key">
+									<xsl:value-of select="key"/>
 								</xsl:attribute>
-								<xsl:text>J.R.R. Tolkien</xsl:text>
-							</xsl:element>
-							<xsl:if test="senderPlace/text()">
-							<xsl:element name="placeName">
-								<xsl:if test="senderPlaceID/text()">
-									<xsl:attribute name="ref">
-										<xsl:value-of select="senderPlaceID"/>
-									</xsl:attribute>
-								</xsl:if>
-								<xsl:value-of select="senderPlace"/>
-							</xsl:element>
-							</xsl:if>
-							<xsl:element name="date">
-								<xsl:choose>
-									<xsl:when test="senderDate/text()">
-										<xsl:attribute name="when">
-											<xsl:value-of select="senderDate"/>
-										</xsl:attribute>
-									</xsl:when>
-									<xsl:when test="senderDateEarliest/text() and senderDateLatest/text()">
-										<xsl:attribute name="notBefore">
-											<xsl:value-of select="senderDateEarliest"/>
-										</xsl:attribute>
-										<xsl:attribute name="notAfter">
-											<xsl:value-of select="senderDateLatest"/>
-										</xsl:attribute>
-									</xsl:when>
-								</xsl:choose>
-							</xsl:element>
-						</xsl:element>
-						<xsl:element name="correspAction">
-							<xsl:attribute name="type">
-								<xsl:text>received</xsl:text>
-							</xsl:attribute>
-							<xsl:element name="persName">
-								<xsl:if test="addresseeID/text()">
-									<xsl:attribute name="ref">
-										<xsl:value-of select="addresseeID"/>
-									</xsl:attribute>
-								</xsl:if>
-								<xsl:value-of select="addressee"/>
-							</xsl:element>
-						</xsl:element>
-						<xsl:element name="note">
-							<xsl:element name="ref">
-								<xsl:attribute name="type">
-									<xsl:text>cmif:hasLanguage</xsl:text>
+								<xsl:attribute name="source">
+									<xsl:text>#e8f085d69-81a8-466f-a58d-3e7dac7431df</xsl:text>
 								</xsl:attribute>
-								<xsl:attribute name="target">
-									<xsl:text>en</xsl:text>
-								</xsl:attribute>
-							</xsl:element>
-							<xsl:if test="textType/text()">
-								<xsl:element name="ref">
+								<xsl:element name="correspAction">
 									<xsl:attribute name="type">
-										<xsl:text>cmif:hasTextBase</xsl:text>
+										<xsl:text>sent</xsl:text>
 									</xsl:attribute>
-									<xsl:attribute name="target">
-										<xsl:text>cmif:</xsl:text>
-										<xsl:value-of select="textType"/>
-									</xsl:attribute>
+									<xsl:element name="persName">
+										<xsl:attribute name="ref">
+											<xsl:text>http://viaf.org/viaf/95218067</xsl:text>
+										</xsl:attribute>
+										<xsl:text>J. R. R. Tolkien</xsl:text>
+									</xsl:element>
+									<xsl:if test="senderPlace/text()">
+									<xsl:element name="placeName">
+										<xsl:if test="senderPlaceID/text()">
+											<xsl:attribute name="ref">
+												<xsl:value-of select="senderPlaceID"/>
+											</xsl:attribute>
+										</xsl:if>
+										<xsl:value-of select="senderPlace"/>
+									</xsl:element>
+									</xsl:if>
+									<xsl:element name="date">
+										<xsl:choose>
+											<xsl:when test="senderDate/text()">
+												<xsl:attribute name="when">
+													<xsl:value-of select="senderDate"/>
+												</xsl:attribute>
+											</xsl:when>
+											<xsl:when test="senderDateEarliest/text() and senderDateLatest/text()">
+												<xsl:attribute name="notBefore">
+													<xsl:value-of select="senderDateEarliest"/>
+												</xsl:attribute>
+												<xsl:attribute name="notAfter">
+													<xsl:value-of select="senderDateLatest"/>
+												</xsl:attribute>
+											</xsl:when>
+										</xsl:choose>
+									</xsl:element>
 								</xsl:element>
-							</xsl:if>
-							<xsl:element name="ref">
-								<xsl:attribute name="type">
-									<xsl:text>cmif:isPublishedWith</xsl:text>
-								</xsl:attribute>
-								<xsl:attribute name="target">
-									<xsl:text>cmif:Transcription</xsl:text>
-								</xsl:attribute>
-							</xsl:element>
-							<xsl:if test="headNote/text() = 'true' or endNote/text() = 'true'">
-								<xsl:element name="ref">
+								<xsl:element name="correspAction">
 									<xsl:attribute name="type">
-										<xsl:text>cmif:isPublishedWith</xsl:text>
+										<xsl:text>received</xsl:text>
 									</xsl:attribute>
-									<xsl:attribute name="target">
-										<xsl:text>cmif:Commentary</xsl:text>
-									</xsl:attribute>
+									<xsl:element name="persName">
+										<xsl:if test="addresseeID/text()">
+											<xsl:attribute name="ref">
+												<xsl:value-of select="addresseeID"/>
+											</xsl:attribute>
+										</xsl:if>
+										<xsl:value-of select="addressee"/>
+									</xsl:element>
 								</xsl:element>
-							</xsl:if>
-						</xsl:element>
-					</xsl:element>
+								<xsl:element name="note">
+									<xsl:element name="ref">
+										<xsl:attribute name="type">
+											<xsl:text>cmif:hasLanguage</xsl:text>
+										</xsl:attribute>
+										<xsl:attribute name="target">
+											<xsl:text>en</xsl:text>
+										</xsl:attribute>
+									</xsl:element>
+									<xsl:if test="textType/text()">
+										<xsl:element name="ref">
+											<xsl:attribute name="type">
+												<xsl:text>cmif:hasTextBase</xsl:text>
+											</xsl:attribute>
+											<xsl:attribute name="target">
+												<xsl:text>cmif:</xsl:text>
+												<xsl:value-of select="textType"/>
+											</xsl:attribute>
+										</xsl:element>
+									</xsl:if>
+									<xsl:element name="ref">
+										<xsl:attribute name="type">
+											<xsl:text>cmif:isPublishedWith</xsl:text>
+										</xsl:attribute>
+										<xsl:attribute name="target">
+											<xsl:text>cmif:Transcription</xsl:text>
+										</xsl:attribute>
+									</xsl:element>
+									<xsl:if test="headNote/text() = 'true' or endNote/text() = 'true'">
+										<xsl:element name="ref">
+											<xsl:attribute name="type">
+												<xsl:text>cmif:isPublishedWith</xsl:text>
+											</xsl:attribute>
+											<xsl:attribute name="target">
+												<xsl:text>cmif:Commentary</xsl:text>
+											</xsl:attribute>
+										</xsl:element>
+									</xsl:if>
+								</xsl:element>
+							</xsl:element>
+						</xsl:when>
+						<xsl:when test="exclude/normalize-space() != ''">
+							<xsl:comment>
+								<xsl:value-of select="key"/>
+								<xsl:text> </xsl:text>
+								<xsl:value-of select="exclude"/>
+							</xsl:comment>
+							<xsl:text>&#xa;</xsl:text>
+						</xsl:when>
+					</xsl:choose>
 				</xsl:if>
 			</xsl:for-each>
 		</profileDesc>

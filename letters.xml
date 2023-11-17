@@ -31,7 +31,7 @@
       <profileDesc>
          <correspDesc key="1" source="#e8f085d69-81a8-466f-a58d-3e7dac7431df">
             <correspAction type="sent">
-               <persName ref="http://viaf.org/viaf/95218067">J.R.R. Tolkien</persName>
+               <persName ref="http://viaf.org/viaf/95218067">J. R. R. Tolkien</persName>
                <placeName ref="http://www.geonames.org/2640729">Oxford</placeName>
                <date notBefore="1914-10-01" notAfter="1914-10-31"/>
             </correspAction>
@@ -46,7 +46,7 @@
          </correspDesc>
          <correspDesc key="2" source="#e8f085d69-81a8-466f-a58d-3e7dac7431df">
             <correspAction type="sent">
-               <persName ref="http://viaf.org/viaf/95218067">J.R.R. Tolkien</persName>
+               <persName ref="http://viaf.org/viaf/95218067">J. R. R. Tolkien</persName>
                <date when="1914-11-27"/>
             </correspAction>
             <correspAction type="received">
@@ -60,7 +60,7 @@
          </correspDesc>
          <correspDesc key="3" source="#e8f085d69-81a8-466f-a58d-3e7dac7431df">
             <correspAction type="sent">
-               <persName ref="http://viaf.org/viaf/95218067">J.R.R. Tolkien</persName>
+               <persName ref="http://viaf.org/viaf/95218067">J. R. R. Tolkien</persName>
                <placeName ref="http://www.geonames.org/12639786">Rugeley Camp</placeName>
                <date when="1915-11-26"/>
             </correspAction>
@@ -75,7 +75,7 @@
          </correspDesc>
          <correspDesc key="4" source="#e8f085d69-81a8-466f-a58d-3e7dac7431df">
             <correspAction type="sent">
-               <persName ref="http://viaf.org/viaf/95218067">J.R.R. Tolkien</persName>
+               <persName ref="http://viaf.org/viaf/95218067">J. R. R. Tolkien</persName>
                <date when="1916-03-02"/>
             </correspAction>
             <correspAction type="received">
@@ -87,9 +87,23 @@
                <ref type="cmif:isPublishedWith" target="cmif:Commentary"/>
             </note>
          </correspDesc>
+         <correspDesc key="113" source="#e8f085d69-81a8-466f-a58d-3e7dac7431df">
+            <correspAction type="sent">
+               <persName ref="http://viaf.org/viaf/95218067">J. R. R. Tolkien</persName>
+               <date when="1948-01-25"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://viaf.org/viaf/22144877/">C. S. Lewis</persName>
+            </correspAction>
+            <note>
+               <ref type="cmif:hasLanguage" target="en"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Transcription"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Commentary"/>
+            </note>
+         </correspDesc>
          <correspDesc key="131" source="#e8f085d69-81a8-466f-a58d-3e7dac7431df">
             <correspAction type="sent">
-               <persName ref="http://viaf.org/viaf/95218067">J.R.R. Tolkien</persName>
+               <persName ref="http://viaf.org/viaf/95218067">J. R. R. Tolkien</persName>
                <date notBefore="1951-11-01" notAfter="1951-12-31"/>
             </correspAction>
             <correspAction type="received">
@@ -102,9 +116,41 @@
                <ref type="cmif:isPublishedWith" target="cmif:Commentary"/>
             </note>
          </correspDesc>
+         <correspDesc key="154" source="#e8f085d69-81a8-466f-a58d-3e7dac7431df">
+            <correspAction type="sent">
+               <persName ref="http://viaf.org/viaf/95218067">J. R. R. Tolkien</persName>
+               <placeName ref="http://www.geonames.org/2640729">Oxford</placeName>
+               <date when="1954-09-25"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://viaf.org/viaf/76330590/">Naomi Mitchison</persName>
+            </correspAction>
+            <note>
+               <ref type="cmif:hasLanguage" target="en"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Transcription"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Commentary"/>
+            </note>
+         </correspDesc>
+         <!--155 is a draft of 154-->
+<correspDesc key="163" source="#e8f085d69-81a8-466f-a58d-3e7dac7431df">
+            <correspAction type="sent">
+               <persName ref="http://viaf.org/viaf/95218067">J. R. R. Tolkien</persName>
+               <placeName ref="http://www.geonames.org/2640729">Oxford</placeName>
+               <date when="1955-06-07"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://viaf.org/viaf/2465832/">W. H. Auden</persName>
+            </correspAction>
+            <note>
+               <ref type="cmif:hasLanguage" target="en"/>
+               <ref type="cmif:hasTextBase" target="cmif:CopyBySender"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Transcription"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Commentary"/>
+            </note>
+         </correspDesc>
          <correspDesc key="181" source="#e8f085d69-81a8-466f-a58d-3e7dac7431df">
             <correspAction type="sent">
-               <persName ref="http://viaf.org/viaf/95218067">J.R.R. Tolkien</persName>
+               <persName ref="http://viaf.org/viaf/95218067">J. R. R. Tolkien</persName>
                <date notBefore="1956-01-01" notAfter="1956-02-29"/>
             </correspAction>
             <correspAction type="received">
@@ -119,7 +165,7 @@
          </correspDesc>
          <correspDesc key="354" source="#e8f085d69-81a8-466f-a58d-3e7dac7431df">
             <correspAction type="sent">
-               <persName ref="http://viaf.org/viaf/95218067">J.R.R. Tolkien</persName>
+               <persName ref="http://viaf.org/viaf/95218067">J. R. R. Tolkien</persName>
                <placeName ref="http://www.geonames.org/2655095">Bournemouth</placeName>
                <date when="1973-08-29"/>
             </correspAction>
