@@ -33,7 +33,7 @@
             <correspAction type="sent">
                <persName ref="http://viaf.org/viaf/95218067">J. R. R. Tolkien</persName>
                <placeName ref="http://www.geonames.org/2640729">Oxford</placeName>
-               <date notBefore="1914-10-01" notAfter="1914-10-31"/>
+               <date when="1914-10"/>
             </correspAction>
             <correspAction type="received">
                <persName>Edith Bratt</persName>
@@ -104,7 +104,7 @@
          <correspDesc key="131" source="#e8f085d69-81a8-466f-a58d-3e7dac7431df">
             <correspAction type="sent">
                <persName ref="http://viaf.org/viaf/95218067">J. R. R. Tolkien</persName>
-               <date notBefore="1951-11-01" notAfter="1951-12-31"/>
+               <date notBefore="1951-10" notAfter="1951-12-31"/>
             </correspAction>
             <correspAction type="received">
                <persName ref="https://viaf.org/viaf/43865621/">Milton Waldman</persName>
@@ -151,7 +151,7 @@
          <correspDesc key="181" source="#e8f085d69-81a8-466f-a58d-3e7dac7431df">
             <correspAction type="sent">
                <persName ref="http://viaf.org/viaf/95218067">J. R. R. Tolkien</persName>
-               <date notBefore="1956-01-01" notAfter="1956-02-29"/>
+               <date notBefore="1956-01" notAfter="1956-02"/>
             </correspAction>
             <correspAction type="received">
                <persName ref="https://viaf.org/viaf/94635761/">Michael Straight</persName>
