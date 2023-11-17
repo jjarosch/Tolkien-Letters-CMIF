@@ -2,7 +2,7 @@
 <xsl:output indent="yes" method="xml"/>
 <xsl:template match="/">
 <xsl:processing-instruction name="xml-model">href="https://raw.githubusercontent.com/TEI-Correspondence-SIG/CMIF/master/schema/cmi-customization.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cmif="https://lod.academy/cmif/vocab/terms/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
