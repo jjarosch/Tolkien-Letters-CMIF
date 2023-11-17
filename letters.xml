@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/TEI-Correspondence-SIG/CMIF/master/schema/cmi-customization.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns:cmif="https://lod.academy/cmif/vocab/terms/"
+     xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A digital index to the letters published in “The Letters of J.R.R. Tolkien. Edited by Humphrey Carpenter.”</title>
+            <editor ref="https://orcid.org/0000-0001-8483-8123">Julian Jarosch <email>julian.jarosch@adwmainz.de</email>
+            </editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="https://orcid.org/0000-0001-8483-8123">Julian Jarosch</ref>
+            </publisher>
+            <idno type="url">https://raw.githubusercontent.com/jjarosch/Tolkien-Letters-CMIF/master/letters.xml</idno>
+            <date when="2023-11-17"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This file is licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="print" xml:id="e2232c6ac-098a-45eb-94c6-c2987e92b3ad">The Letters of J.R.R. Tolkien. A selection edited by Humphrey Carpenter with the assistance of Christopher Tolkien. This edition first published: George Allen &amp; Unwin, 1981.</bibl>
+            <bibl type="print" xml:id="e8f085d69-81a8-466f-a58d-3e7dac7431df">The Letters of J.R.R. Tolkien. Revised and Expanded Edition. A selection edited by Humphrey Carpenter with the assistance of Christopher Tolkien. This edition first published: HarperCollinsPublishers, 2023.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="cmif" matchPattern="(cmif)"
+                       replacementPattern="https://lod.academy/cmif/vocab/terms/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc key="1" source="#e8f085d69-81a8-466f-a58d-3e7dac7431df">
+            <correspAction type="sent">
+               <persName ref="http://viaf.org/viaf/95218067">J.R.R. Tolkien</persName>
+               <placeName ref="http://www.geonames.org/2640729">Oxford</placeName>
+               <date notBefore="1914-10-01" notAfter="1914-10-31"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Edith Bratt</persName>
+            </correspAction>
+            <note>
+               <ref type="cmif:hasLanguage" target="en"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Transcription"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Commentary"/>
+            </note>
+         </correspDesc>
+         <correspDesc key="2" source="#e8f085d69-81a8-466f-a58d-3e7dac7431df">
+            <correspAction type="sent">
+               <persName ref="http://viaf.org/viaf/95218067">J.R.R. Tolkien</persName>
+               <date when="1914-11-27"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Edith Bratt</persName>
+            </correspAction>
+            <note>
+               <ref type="cmif:hasLanguage" target="en"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Transcription"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Commentary"/>
+            </note>
+         </correspDesc>
+         <correspDesc key="3" source="#e8f085d69-81a8-466f-a58d-3e7dac7431df">
+            <correspAction type="sent">
+               <persName ref="http://viaf.org/viaf/95218067">J.R.R. Tolkien</persName>
+               <placeName ref="http://www.geonames.org/12639786">Rugeley Camp</placeName>
+               <date when="1915-11-26"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Edith Bratt</persName>
+            </correspAction>
+            <note>
+               <ref type="cmif:hasLanguage" target="en"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Transcription"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Commentary"/>
+            </note>
+         </correspDesc>
+         <correspDesc key="4" source="#e8f085d69-81a8-466f-a58d-3e7dac7431df">
+            <correspAction type="sent">
+               <persName ref="http://viaf.org/viaf/95218067">J.R.R. Tolkien</persName>
+               <date when="1916-03-02"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Edith Bratt</persName>
+            </correspAction>
+            <note>
+               <ref type="cmif:hasLanguage" target="en"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Transcription"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Commentary"/>
+            </note>
+         </correspDesc>
+         <correspDesc key="131" source="#e8f085d69-81a8-466f-a58d-3e7dac7431df">
+            <correspAction type="sent">
+               <persName ref="http://viaf.org/viaf/95218067">J.R.R. Tolkien</persName>
+               <date notBefore="1951-11-01" notAfter="1951-12-31"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://viaf.org/viaf/43865621/">Milton Waldman</persName>
+            </correspAction>
+            <note>
+               <ref type="cmif:hasLanguage" target="en"/>
+               <ref type="cmif:hasTextBase" target="cmif:CopyByThird"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Transcription"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Commentary"/>
+            </note>
+         </correspDesc>
+         <correspDesc key="181" source="#e8f085d69-81a8-466f-a58d-3e7dac7431df">
+            <correspAction type="sent">
+               <persName ref="http://viaf.org/viaf/95218067">J.R.R. Tolkien</persName>
+               <date notBefore="1956-01-01" notAfter="1956-02-29"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://viaf.org/viaf/94635761/">Michael Straight</persName>
+            </correspAction>
+            <note>
+               <ref type="cmif:hasLanguage" target="en"/>
+               <ref type="cmif:hasTextBase" target="cmif:Draft"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Transcription"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Commentary"/>
+            </note>
+         </correspDesc>
+         <correspDesc key="354" source="#e8f085d69-81a8-466f-a58d-3e7dac7431df">
+            <correspAction type="sent">
+               <persName ref="http://viaf.org/viaf/95218067">J.R.R. Tolkien</persName>
+               <placeName ref="http://www.geonames.org/2655095">Bournemouth</placeName>
+               <date when="1973-08-29"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="http://viaf.org/viaf/12170909">Priscilla Tolkien</persName>
+            </correspAction>
+            <note>
+               <ref type="cmif:hasLanguage" target="en"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Transcription"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Commentary"/>
+            </note>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
