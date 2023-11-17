@@ -26,11 +26,6 @@
 				<bibl type="print" xml:id="e8f085d69-81a8-466f-a58d-3e7dac7431df">The Letters of J.R.R. Tolkien. Revised and Expanded Edition. A selection edited by Humphrey Carpenter with the assistance of Christopher Tolkien. This edition first published: HarperCollinsPublishers, 2023.</bibl>
 			</sourceDesc>
 		</fileDesc>
-		<encodingDesc>
-			<listPrefixDef>
-				<prefixDef ident="cmif" matchPattern="(cmif)" replacementPattern="https://lod.academy/cmif/vocab/terms/#$1"/>
-			</listPrefixDef>
-		</encodingDesc>
 		<profileDesc>
 			<xsl:for-each select="csv/row">
 				<xsl:if test="publicationReady/text() = 'true'">
@@ -97,7 +92,7 @@
 								<xsl:element name="note">
 									<xsl:element name="ref">
 										<xsl:attribute name="type">
-											<xsl:text>cmif:hasLanguage</xsl:text>
+											<xsl:text>https://lod.academy/cmif/vocab/terms#hasLanguage</xsl:text>
 										</xsl:attribute>
 										<xsl:attribute name="target">
 											<xsl:text>en</xsl:text>
@@ -106,29 +101,29 @@
 									<xsl:if test="textType/text()">
 										<xsl:element name="ref">
 											<xsl:attribute name="type">
-												<xsl:text>cmif:hasTextBase</xsl:text>
+												<xsl:text>https://lod.academy/cmif/vocab/terms#hasTextBase</xsl:text>
 											</xsl:attribute>
 											<xsl:attribute name="target">
-												<xsl:text>cmif:</xsl:text>
+												<xsl:text>https://lod.academy/cmif/vocab/terms#</xsl:text>
 												<xsl:value-of select="textType"/>
 											</xsl:attribute>
 										</xsl:element>
 									</xsl:if>
 									<xsl:element name="ref">
 										<xsl:attribute name="type">
-											<xsl:text>cmif:isPublishedWith</xsl:text>
+											<xsl:text>https://lod.academy/cmif/vocab/terms#isPublishedWith</xsl:text>
 										</xsl:attribute>
 										<xsl:attribute name="target">
-											<xsl:text>cmif:Transcription</xsl:text>
+											<xsl:text>https://lod.academy/cmif/vocab/terms#Transcription</xsl:text>
 										</xsl:attribute>
 									</xsl:element>
 									<xsl:if test="headNote/text() = 'true' or endNote/text() = 'true'">
 										<xsl:element name="ref">
 											<xsl:attribute name="type">
-												<xsl:text>cmif:isPublishedWith</xsl:text>
+												<xsl:text>https://lod.academy/cmif/vocab/terms#isPublishedWith</xsl:text>
 											</xsl:attribute>
 											<xsl:attribute name="target">
-												<xsl:text>cmif:Commentary</xsl:text>
+												<xsl:text>https://lod.academy/cmif/vocab/terms#Commentary</xsl:text>
 											</xsl:attribute>
 										</xsl:element>
 									</xsl:if>
