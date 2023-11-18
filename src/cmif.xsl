@@ -65,6 +65,14 @@
 													<xsl:value-of select="senderDate"/>
 												</xsl:attribute>
 											</xsl:when>
+											<xsl:when test="senderDateFrom/text() and senderDateTo/text()">
+												<xsl:attribute name="from">
+													<xsl:value-of select="senderDateFrom"/>
+												</xsl:attribute>
+												<xsl:attribute name="to">
+													<xsl:value-of select="senderDateTo"/>
+												</xsl:attribute>
+											</xsl:when>
 											<xsl:when test="senderDateEarliest/text() and senderDateLatest/text()">
 												<xsl:attribute name="notBefore">
 													<xsl:value-of select="senderDateEarliest"/>
