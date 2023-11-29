@@ -86,7 +86,7 @@ key,publicationReady,abridged,headNote,endNote,textType,senderPlace,senderPlaceI
 57,,,false,false,,,,,,,,,,,,
 58,,,true,true,,,,,,,,,,,,
 59,,,false,false,,,,,,,,,,,,
-59a,,,false,true,,,,,,,,,,,,
+59a,true,false,false,true,,Oxford,http://www.geonames.org/2640729,,1944-04-08,1944-04-11,,,Christopher Tolkien,https://viaf.org/viaf/12315790/,,
 60,,,true,true,,,,,,,,,,,,
 61,,,,,,,,,,,,,,,,
 62,,,,,,,,,,,,,,,,

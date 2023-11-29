@@ -12,7 +12,7 @@
                <ref target="https://orcid.org/0000-0001-8483-8123">Julian Jarosch</ref>
             </publisher>
             <idno type="url">https://raw.githubusercontent.com/jjarosch/Tolkien-Letters-CMIF/master/letters.xml</idno>
-            <date when="2023-11-18"/>
+            <date when="2023-11-29"/>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">This file is licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
             </availability>
@@ -95,6 +95,21 @@
             </correspAction>
             <correspAction type="received">
                <persName ref="https://viaf.org/viaf/29916417/">E. V. Gordon</persName>
+            </correspAction>
+            <note>
+               <ref type="cmif:hasLanguage" target="en"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Transcription"/>
+               <ref type="cmif:isPublishedWith" target="cmif:Commentary"/>
+            </note>
+         </correspDesc>
+         <correspDesc key="59a" source="#e8f085d69-81a8-466f-a58d-3e7dac7431df">
+            <correspAction type="sent">
+               <persName ref="http://viaf.org/viaf/95218067">J. R. R. Tolkien</persName>
+               <placeName ref="http://www.geonames.org/2640729">Oxford</placeName>
+               <date from="1944-04-08" to="1944-04-11"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://viaf.org/viaf/12315790/">Christopher Tolkien</persName>
             </correspAction>
             <note>
                <ref type="cmif:hasLanguage" target="en"/>
