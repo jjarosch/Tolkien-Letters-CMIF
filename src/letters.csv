@@ -268,9 +268,9 @@ key,publicationReady,abridged,headNote,endNote,textType,senderPlace,senderPlaceI
 179c,,,,,,,,,,,,,,,,,,,
 180,,,,,,,,,,,,,,,,,,,
 181,true,true,true,true,Draft,,,,,,1956-01,1956-02,Michael Straight,https://viaf.org/viaf/94635761/,,,,,assembled from multiple drafts
-182,,,,,,,,,,,,,,,,,,,
-183,,,,,,,,,,,,,,,,,,,
-184,,,,,,,,,,,,,,,,,,,
+182,true,true,false,false,,,,,,,1956,1956,Anne Barrett,,Houghton Mifflin Co.,,,,
+183,true,,,,,,,,,,,,,,,,,is not a letter,
+184,true,false,true,false,,Oxford,http://www.geonames.org/2640729,1956-03-18,,,,,Sam Gamgee,,,London,http://www.geonames.org/2643743,,
 185,,,,,,,,,,,,,,,,,,,
 186,,,,,,,,,,,,,,,,,,,
 187,,,,,,,,,,,,,,,,,,,
