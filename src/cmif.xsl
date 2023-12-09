@@ -88,14 +88,31 @@
 									<xsl:attribute name="type">
 										<xsl:text>received</xsl:text>
 									</xsl:attribute>
-									<xsl:element name="persName">
-										<xsl:if test="addresseeID/text()">
-											<xsl:attribute name="ref">
-												<xsl:value-of select="addresseeID"/>
-											</xsl:attribute>
-										</xsl:if>
-										<xsl:value-of select="addressee"/>
+									<xsl:if test="addressee/text()">
+										<xsl:element name="persName">
+											<xsl:if test="addresseeID/text()">
+												<xsl:attribute name="ref">
+													<xsl:value-of select="addresseeID"/>
+												</xsl:attribute>
+											</xsl:if>
+											<xsl:value-of select="addressee"/>
+										</xsl:element>
+									</xsl:if>
+									<xsl:if test="addresseeOrg/text()">
+										<xsl:element name="orgName">
+											<xsl:value-of select="addresseeOrg"/>
+										</xsl:element>
+									</xsl:if>
+									<xsl:if test="addresseePlace/text()">
+										<xsl:element name="placeName">
+											<xsl:if test="addresseePlaceID/text()">
+												<xsl:attribute name="ref">
+													<xsl:value-of select="addresseePlaceID"/>
+												</xsl:attribute>
+											</xsl:if>
+											<xsl:value-of select="addresseePlace"/>
 									</xsl:element>
+									</xsl:if>
 								</xsl:element>
 								<xsl:element name="note">
 									<xsl:element name="ref">
