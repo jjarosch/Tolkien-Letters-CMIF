@@ -314,7 +314,7 @@ key,publicationReady,abridged,headNote,endNote,textType,senderPlace,senderPlaceI
 214,,,,,,,,,,,,,,,,,,,
 214a,,,,,,,,,,,,,,,,,,,
 214b,,,,,,,,,,,,,,,,,,,
-215,,,,,,,,,,,,,,,,,,,
+215,,false,true,,Draft; Sent,,,1959-04-17,,,,,Walter Allen,,New Statesman,,,,contains a draft or drafts and the letter as it was actually sent
 215a,,,,,,,,,,,,,,,,,,,
 216,,,,,,,,,,,,,,,,,,,
 217,,,,,,,,,,,,,,,,,,,
@@ -369,7 +369,7 @@ key,publicationReady,abridged,headNote,endNote,textType,senderPlace,senderPlaceI
 252,,,,,,,,,,,,,,,,,,,
 253,,,,,,,,,,,,,,,,,,,
 254,,,,,,,,,,,,,,,,,,,
-254a,,true,,,Draft,,,1964-02-08,,,,,Christopher Tolkien,https://viaf.org/viaf/12315790/,,,,,
+254a,,true,,,Draft,,,,1964-02-08,1968-03-03,,,Christopher Tolkien,https://viaf.org/viaf/12315790/,,,,,not sent
 255,,,,,,,,,,,,,,,,,,,
 256,,,,,,,,,,,,,,,,,,,
 257,,,,,,,,,,,,,,,,,,,
@@ -440,7 +440,7 @@ key,publicationReady,abridged,headNote,endNote,textType,senderPlace,senderPlaceI
 304,,,,,,,,,,,,,,,,,,,
 305,,,,,,,,,,,,,,,,,,,
 305a,,,,,,,,,,,,,,,,,,,
-306,,,,,,,,,,,,,,,,,,,
+306,,,,,,,,,1967-08,1968-10,,,,,,,,,
 307,,,,,,,,,,,,,,,,,,,
 307a,,,,,,,,,,,,,,,,,,,
 308,,,,,,,,,,,,,,,,,,,
