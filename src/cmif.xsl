@@ -152,6 +152,14 @@
 											</xsl:attribute>
 										</xsl:element>
 									</xsl:if>
+									<xsl:element name="ref">
+										<xsl:attribute name="type">
+											<xsl:text>https://lod.academy/cmif/vocab/terms#seeAlso</xsl:text>
+										</xsl:attribute>
+										<xsl:attribute name="target">
+											<xsl:value-of select="seeAlso"/>
+										</xsl:attribute>
+									</xsl:element>
 								</xsl:element>
 							</xsl:element>
 						</xsl:when>
