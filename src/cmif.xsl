@@ -123,17 +123,17 @@
 											<xsl:text>en</xsl:text>
 										</xsl:attribute>
 									</xsl:element>
-									<xsl:if test="textType/text()">
+									<xsl:for-each select="tokenize(textType/text(), ';')">
 										<xsl:element name="ref">
 											<xsl:attribute name="type">
 												<xsl:text>https://lod.academy/cmif/vocab/terms#hasTextBase</xsl:text>
 											</xsl:attribute>
 											<xsl:attribute name="target">
 												<xsl:text>https://lod.academy/cmif/vocab/terms#</xsl:text>
-												<xsl:value-of select="textType"/>
+												<xsl:value-of select="normalize-space(.)"/>
 											</xsl:attribute>
 										</xsl:element>
-									</xsl:if>
+									</xsl:for-each>
 									<xsl:element name="ref">
 										<xsl:attribute name="type">
 											<xsl:text>https://lod.academy/cmif/vocab/terms#isPublishedWith</xsl:text>
