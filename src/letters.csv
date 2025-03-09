@@ -319,8 +319,8 @@ key,publicationReady,abridged,headNote,endNote,textType,senderPlace,senderPlaceI
 216,,,,,,,,,,,,,,,,,,,https://www.tolkienguide.com/guide/letters/591,,
 217,,,,,,,,,,,,,,,,,,,https://www.tolkienguide.com/guide/letters/592,,
 218,,,,,,,,,,,,,,,,,,,https://www.tolkienguide.com/guide/letters/593,,
-219,,,,,,,,,,,,,,,,,,,https://www.tolkienguide.com/guide/letters/596,,
-220,,,,,,,,,,,,,,,,,,,https://www.tolkienguide.com/guide/letters/594,,
+219,true,true,false,true,,,,1959-10-15,,,,,,Naomi Mitchison,https://viaf.org/viaf/76330590/,,,,https://www.tolkienguide.com/guide/letters/596,,previously 220
+220,true,true,true,true,,,,1959-10-16,,,,,,,,George Allen &amp; Unwin Ltd.,,,https://www.tolkienguide.com/guide/letters/594,,previously 219 and mis-dated
 220a,,,,,,,,,,,,,,,,,,,https://www.tolkienguide.com/guide/letters/346,,
 221,,,,,,,,,,,,,,,,,,,https://www.tolkienguide.com/guide/letters/597,,
 222,,,,,,,,,,,,,,,,,,,https://www.tolkienguide.com/guide/letters/598,,
