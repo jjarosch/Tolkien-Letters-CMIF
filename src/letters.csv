@@ -314,7 +314,7 @@ key,publicationReady,abridged,headNote,endNote,textType,senderPlace,senderPlaceI
 214,,,,,,,,,,,,,,,,,,https://www.tolkienguide.com/guide/letters/586,,
 214a,,,,,,,,,,,,,,,,,,https://www.tolkienguide.com/guide/letters/1465,,
 214b,,,,,,,,,,,,,,,,,,https://www.tolkienguide.com/guide/letters/1466,,
-215,,false,true,,Draft; Sent,,,1959-04-17,,,,,Walter Allen,https://viaf.org/viaf/108224233/,New Statesman,,,https://www.tolkienguide.com/guide/letters/590,,contains a draft or drafts and the letter as it was actually sent
+215,true,false,true,,Draft; Sent,,,1959-04-17,,,,,Walter Allen,https://viaf.org/viaf/108224233/,New Statesman,,,https://www.tolkienguide.com/guide/letters/590,,contains a draft or drafts and the letter as it was actually sent
 215a,,,,,,,,,,,,,,,,,,https://www.tolkienguide.com/guide/letters/1467,,
 216,,,,,,,,,,,,,,,,,,https://www.tolkienguide.com/guide/letters/591,,
 217,,,,,,,,,,,,,,,,,,https://www.tolkienguide.com/guide/letters/592,,
