@@ -82,6 +82,11 @@
 												</xsl:attribute>
 											</xsl:when>
 										</xsl:choose>
+										<xsl:if test="senderDateEvidence/text()">
+											<xsl:attribute name="evidence">
+												<xsl:value-of select="senderDateEvidence"/>
+											</xsl:attribute>
+										</xsl:if>
 									</xsl:element>
 								</xsl:element>
 								<xsl:element name="correspAction">
